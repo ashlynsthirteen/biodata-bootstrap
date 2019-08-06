@@ -1,27 +1,14 @@
 body{
     width: 1026px;
 }
-
-*{
-    margin: 0;
-    padding: 0;
-} 
-
-input[type=text]{
-    text-align: center;
+input[type=text],
+textarea{
     border: none;
 }
-body {
-    width: 1026px;
-}
-*{
-    padding: 0;
-    margin: 0;
-}
-.header-form.container{
+#header-form.container,
+#form.container{
     width:90%;
     height: auto;
-    padding: 0;
 }
 input[type=text]{
     box-sizing: border-box;
@@ -34,6 +21,7 @@ input[type=text]{
     border:none;
     outline:none;
     box-shadow: none;
+    padding: 0;
 }
 .form-control:focus{
     outline: none;
@@ -41,10 +29,16 @@ input[type=text]{
     border:none;
 }
 .birth-place{
-    margin-left: 34.33%;
+    margin-left: 35%;
 }
 .title,
 .main-title{
     letter-spacing: 2px;
     color: #2B3663;
+}
+#biodata{
+    border: 2px solid red;
+}
+.qualifications{
+    letter-spacing: 5px;
 }
