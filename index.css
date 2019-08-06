@@ -1,8 +1,8 @@
 body{
     width: 1026px;
 }
-input[type=text]{
-    text-align: center;
+input[type=text],
+textarea{
     border: none;
 }
 #header-form.container,
@@ -38,4 +38,7 @@ input[type=text]{
 }
 #biodata{
     border: 2px solid red;
+}
+.qualifications{
+    letter-spacing: 5px;
 }
