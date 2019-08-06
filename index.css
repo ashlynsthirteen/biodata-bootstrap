@@ -1,5 +1,9 @@
-body {
+body{
     width: 1026px;
+}
+input[type=text]{
+    text-align: center;
+    border: none;
 }
 #header-form.container,
 #form.container{
