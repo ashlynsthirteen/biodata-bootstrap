@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="index.css">
 
   <title>biodata-bootstrap</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body class="m-auto border border-dark">
@@ -20,155 +21,136 @@
     <p class="ml-5 mb-0 mt-3">ADVT. REF.:</p>
     <p class="ml-5 mb-3">ADVT. DATE:</p>
   </div>
-  <div class="header-form container">
-    <div class="container mb-3">
-      <div class="row">
-        <div class="col-9 mt-3">
-          <h2 class="text-center w-25 mx-auto  border border-dark font-weight-bold display-5 p-2 mb-1 main-title"> T N P
-            L </h2>
-          <h4 class="m-auto text-center font-weight-bold title">TAMIL NADU NEWSPRINT AND PAPERS LIMITED</h4>
-          <div class="m-auto text-center title">Factory : Kagithapuram, Karur District - 639 136.<br>Corporate Office:
-            67, Mount Road, Guindy, Chennai - 600 032</div>
-          <h2 class="mx-auto text-center w-50 rounded bg-secondary mt-1 font-weight-bold border border-dark">BIO DATA
-            FORM</h2>
-        </div>
-        <div class="col-3 border border-dark">
-          <p class="text-center mt-5">Paste recent passport</p>
-          <p class="text-center">size</p>
-          <p class="text-center mb-5">colour photograph</p>
-        </div>
+  <div class="container mb-3" id="header-form">
+    <div class="row">
+      <div class="col-9 mt-3">
+        <h2 class="text-center w-25 mx-auto  border border-dark font-weight-bold display-5 p-2 mb-1 main-title"> T N P
+          L </h2>
+        <h4 class="m-auto text-center font-weight-bold title">TAMIL NADU NEWSPRINT AND PAPERS LIMITED</h4>
+        <div class="m-auto text-center title">Factory : Kagithapuram, Karur District - 639 136.<br>Corporate Office:
+          67, Mount Road, Guindy, Chennai - 600 032</div>
+        <h2 class="mx-auto text-center w-50 rounded bg-secondary mt-1 font-weight-bold border border-dark" id="biodata">
+          BIO DATA
+          FORM</h2>
+      </div>
+      <div class="col-3 border border-dark">
+        <p class="text-center mt-5">Paste recent passport</p>
+        <p class="text-center">size</p>
+        <p class="text-center mb-5">colour photograph</p>
       </div>
     </div>
   </div>
-  <div class="header-form container  border border-dark">
-    <div class="form-container">
-      <form>
-        <div class="container">
-          <div class="row border border-dark">
-            <div class="col-12 input-group ">
-              <div class="input-group-prepend">
-                <span class="input-group-text p-0">Full Name:<br> (In Capital) </span>
-              </div>
-              <input type="text" class="form-control">
-            </div>
+  <div class=" container  border border-dark" id="form">
+    <form>
+      <div class="row border border-dark">
+        <div class="col-12 input-group ">
+          <div class="input-group-prepend">
+            <span class="input-group-text p-0">Full Name: </span>
           </div>
+          <input type="text" class="form-control">
         </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-6 border border-dark w-100">
-              <div class="input-group">
+        <div>
+          <p class="ml-3 p-0 my-0">(In Capital)</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 border border-dark w-100">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text p-0">Permanent Address: </span>
+            </div>
+            <input type="text" class="form-control">
+          </div>
+          <div class="row mt-4">
+            <div class="form-inline">
+              <div class="col-6 input-group">
                 <div class="input-group-prepend">
-                  <span class="input-group-text p-0">Permanent Address: </span>
+                  <span class="input-group-text p-0">Telephone No: </span>
                 </div>
                 <input type="text" class="form-control">
               </div>
-              <div class="row mt-4">
-                <div class="form-inline">
-                  <div class="col-6 input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text p-0">Telephone No: </span>
-                    </div>
-                    <input type="text" class="form-control">
-                  </div>
-                  <div class="col-6 input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text p-0">Mobile No: </span>
-                    </div>
-                    <input type="text" class="form-control">
-                  </div>
+              <div class="col-6 input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text p-0">Mobile No: </span>
                 </div>
-              </div>
-              <div class="container">
-                <div class="row">
-                  <div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text p-0">Email: </span>
-                    </div>
-                    <input type="text" class="form-control">
-                  </div>
-                </div>
-              </div>
-              <div class="container">
-                <div class="row">
-                  <div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text p-0">Nearest Police Station: </span>
-                    </div>
-                    <input type="text" class="form-control">
-                  </div>
-                </div>
+                <input type="text" class="form-control" maxlength="11">
               </div>
             </div>
-            <div class="col-6 border border-dark w-100">
-              <div class="input-group">
+          </div>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text p-0">Email: </span>
+            </div>
+            <input type="email" class="form-control">
+          </div>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text p-0">Nearest Police Station: </span>
+            </div>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+        <div class="col-6 border border-dark w-100">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text p-0">Present Address: </span>
+            </div>
+            <input type="text" class="form-control">
+          </div>
+          <div class="row mt-4">
+            <div class="form-inline">
+              <div class="col-6 input-group">
                 <div class="input-group-prepend">
-                  <span class="input-group-text p-0">Permanent Address: </span>
+                  <span class="input-group-text p-0">Telephone No: </span>
                 </div>
                 <input type="text" class="form-control">
               </div>
-              <div class="row mt-4">
-                <div class="form-inline">
-                  <div class="col-6 input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text p-0">Telephone No: </span>
-                    </div>
-                    <input type="text" class="form-control">
-                  </div>
-                  <div class="col-6 input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text p-0">Mobile No: </span>
-                    </div>
-                    <input type="text" class="form-control">
-                  </div>
-                </div>
-              </div>
-              <div class="container">
-                <div class="row">
-                  <div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text p-0">Email: </span>
-                    </div>
-                    <input type="text" class="form-control">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container border border-dark">
-          <div class="row">
-            <div class="input-group col-4">
-              <div class="input-group-prepend">
-                <span class="input-group-text p-0" id="basic-addon1">Age: </span>
-              </div>
-              <input type="text" class="form-control" maxlength="3">
-            </div>
-            <div class="col-4">
-              <div class="input-group">
+              <div class="col-6 input-group">
                 <div class="input-group-prepend">
-                  <span class="input-group-text p-0">Date of birth: </span>
+                  <span class="input-group-text p-0">Mobile No: </span>
                 </div>
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" maxlength="11">
               </div>
-            </div>
-            <div class="input-group col-4">
-              <div class="input-group-prepend">
-                <span class="input-group-text p-0">Nationality: </span>
-              </div>
-              <input type="text" class="form-control">
             </div>
           </div>
-          <div class="birth-place">
-            <div class="input-group">
-              <div class="input-group-prepend">
-                <span class="input-group-text p-0">Place of birth: </span>
-              </div>
-              <input type="text" class="form-control">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text p-0">Email: </span>
             </div>
+            <input type="email" class="form-control">
           </div>
         </div>
-    </div>
-    <div class="container">
+      </div>
+      <div class="row border border-dark">
+        <div class="input-group col-4">
+          <div class="input-group-prepend">
+            <span class="input-group-text p-0">Age: </span>
+          </div>
+          <input type="text" class="form-control">
+        </div>
+        <div class="col-4">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text p-0">Date of birth: </span>
+            </div>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+        <div class="input-group col-4">
+          <div class="input-group-prepend">
+            <span class="input-group-text p-0">Nationality: </span>
+          </div>
+          <input type="text" class="form-control">
+        </div>
+        <div class="birth-place">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text p-0">Place of birth: </span>
+            </div>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+      </div>
       <div class="row">
         <div class="col-sm-5 border border-dark ">
           <div class="form-group">
@@ -185,21 +167,17 @@
                 <input type="radio" name="member-options" />
                 <span>SC</span>
               </label>
-
               <label>
                 <input type="radio" name="member-options" />
                 <span>ST</span>
               </label>
-
               <label>
                 <input type="radio" name="member-options" />
                 <span>MBC</span>
               </label>
-
               <label>
-                   <input type="radio" name="member-options" />
+                <input type="radio" name="member-options" />
                 <span>BC</span>
-               
               </label>
               <label>
                 <input type="radio" name="member-options" />
@@ -208,7 +186,7 @@
             </div>
             <div class="input-group">
               <div class="input-group-prepend">
-                <span class="input-group-text p-0">Specify Community:</span>
+                <label class="input-group-text p-0">Specify Community:</label>
               </div>
               <input type="text" class="form-control" maxlength="8">
             </div>
@@ -221,21 +199,19 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class=" row ">
-        <div class="col-8">
-          <div class="row">
+      <div class="row">
+        <div class="col-8 border border-dark">
+          <div class="row ">
             <div class="col-4 border border-dark">
               <p class="text-center m-auto">SEX</p>
               <div class="d-flex flex-column form-group">
-                <div class="custom-control custom-checkbox custom-checkbox-lg mb-2 d-flex flex-row-reverse ">
+                <div class="custom-control custom-checkbox custom-checkbox-box mb-2 d-flex flex-row-reverse ">
                   <input type="radio" class="custom-control-input" id="defaultUnchecked" name="defaultExampleRadios"
                     checked>
                   <label>FEMALE</label>
                   <label class="custom-control-label ml-5 " for="defaultUnchecked"></label>
                 </div>
-                <div class="custom-control custom-checkbox custom-checkbox-lg d-flex flex-row-reverse">
+                <div class="custom-control custom-checkbox custom-checkbox-box d-flex flex-row-reverse">
                   <input type="radio" class="custom-control-input" id="male" name="defaultExampleRadios">
                   <label>MALE</label>
                   <label class="custom-control-label ml-5" for="male"></label>
@@ -247,14 +223,13 @@
               <div class="d-flex justify-content-around">
                 <div>
                   <div
-                    class="col-6 custom-control custom-checkbox custom-checkbox-lg mb-3 custom-control-inline custom-control-inline form-inline">
+                    class="col-6  custom-control custom-checkbox custom-checkbox-box mb-3 custom-control-inline custom-control-inline form-inline">
                     <input type="radio" class="custom-control-input" id="single" name="marital-checkbox">
                     <label class=" ml-5">SINGLE</label>
                     <label class="custom-control-label " for="single"></label>
                   </div>
-
                   <div
-                    class="col-6 custom-control custom-checkbox custom-checkbox-lg mb-3 custom-control-inline custom-control-inline form-inline">
+                    class="col-6 custom-control custom-checkbox custom-checkbox-box mb-3 custom-control-inline custom-control-inline form-inline">
                     <input type="radio" class="custom-control-input" id="married" name="marital-checkbox">
                     <label class=" ml-5">MARRIED</label>
                     <label class="custom-control-label" for="married"></label>
@@ -262,14 +237,13 @@
                 </div>
                 <div>
                   <div
-                    class="col-6 custom-control custom-checkbox custom-checkbox-lg mb-3 custom-control-inline custom-control-inline">
+                    class="col-6 custom-control custom-checkbox custom-checkbox-box mb-3 custom-control-inline custom-control-inline">
                     <input type="radio" class="custom-control-input" id="widowed" name="marital-checkbox" checked>
                     <label class=" ml-5">WIDOWED</label>
                     <label class="custom-control-label" for="widowed"></label>
                   </div>
-
                   <div
-                    class="col-6 custom-control custom-checkbox custom-checkbox-lg mb-3 custom-control-inline custom-control-inline">
+                    class="col-6 custom-control custom-checkbox custom-checkbox-box mb-3 custom-control-inline custom-control-inline">
                     <input type="radio" class="custom-control-input" id="divorced" name="marital-checkbox">
                     <label class=" ml-5">DIVORCED</label>
                     <label class="custom-control-label" for="divorced"></label>
@@ -277,39 +251,39 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row d-flex justify-content-around">
-            <div class="input-group col-6">
-              <div class="input-group-prepend">
-                <span class="input-group-text p-0">NO. OF CHILDREN </span>
+            <div class="d-flex justify-content-around">
+              <div class="input-group col-6">
+                <div class="input-group-prepend">
+                  <span class="input-group-text p-0">NO. OF CHILDREN: </span>
+                </div>
+                <input type="text" class="form-control" maxlength="3">
               </div>
-              <input type="text" class="form-control" maxlength="3">
+              <div class="input-group col-4">
+                <div class="input-group-prepend">
+                  <span class="input-group-text p-0">No: </span>
+                </div>
+                <input type="text" class="form-control">
+              </div>
+              <div class="input-group col-2">
+                <div class="input-group-prepend">
+                  <span class="input-group-text p-0">Age: </span>
+                </div>
+                <input type="text" class="form-control" maxlength="3">
+              </div>
             </div>
-            <div class="input-group col-4">
-              <div class="input-group-prepend">
-                <span class="input-group-text p-0">No. </span>
+            <div class="d-flex flex-column text-center w-100">
+              <div class="input-group m-auto w-50">
+                <div class="input-group-prepend">
+                  <span class="input-group-text ml-5">MALE:</span>
+                </div>
+                <input type="text" class="form-control" maxlength="3">
               </div>
-              <input type="text" class="form-control">
-            </div>
-            <div class="input-group col-2">
-              <div class="input-group-prepend">
-                <span class="input-group-text p-0">Age: </span>
+              <div class="input-group m-auto w-50">
+                <div class="input-group-prepend">
+                  <span class="input-group-text ml-5">FEMALE:</span>
+                </div>
+                <input type="text" class="form-control" maxlength="3">
               </div>
-              <input type="text" class="form-control" maxlength="3">
-            </div>
-          </div>
-          <div class="d-flex flex-column text-center">
-            <div class="input-group m-auto w-25">
-              <div class="input-group-prepend">
-                <span class="input-group-text p-0">MALE</span>
-              </div>
-              <input type="text" class="form-control" maxlength="3">
-            </div>
-            <div class="input-group m-auto w-25">
-              <div class="input-group-prepend">
-                <span class="input-group-text p-0">FEMALE</span>
-              </div>
-              <input type="text" class="form-control" maxlength="3">
             </div>
           </div>
         </div>
@@ -319,12 +293,12 @@
           <div class="form-group mt-5">
             <label>DEPENDENT PARENTS</label>
             <div class="text-center">
-              <div class=" custom-control custom-checkbox custom-checkbox-lg mb-3 custom-control-inline">
+              <div class=" custom-control custom-checkbox custom-checkbox-box mb-3 custom-control-inline">
                 <input type="radio" class="custom-control-input" id="yes" name="dependent-parents-checkbox" checked>
                 <label class=" ml-5">YES</label>
                 <label class="custom-control-label" for="yes"></label>
               </div>
-              <div class="custom-control custom-checkbox custom-checkbox-lg mb-3 custom-control-inline">
+              <div class="custom-control custom-checkbox custom-checkbox-box mb-3 custom-control-inline">
                 <input type="radio" class="custom-control-input" id="no" name="dependent-parents-checkbox">
                 <label class=" ml-5">NO</label>
                 <label class="custom-control-label" for="no"></label>
@@ -333,8 +307,6 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="container">
       <div class="row border border-dark">
         <div class="col-4 ">
           <div class="form-group">
@@ -344,18 +316,18 @@
         </div>
         <div class="col-4 row d-flex justify-content-around ">
           <div>SPEAK
-            <div class="custom-control custom-checkbox custom-checkbox-lg mb-3 mt-2">
+            <div class="custom-control custom-checkbox custom-checkbox-box mb-3 mt-2">
               <input type="checkbox" class="custom-control-input" id="speak-box-1">
               <label class="custom-control-label" for="speak-box-1"></label>
             </div>
             <div>
-              <div class="custom-control custom-checkbox custom-checkbox-lg mb-3">
+              <div class="custom-control custom-checkbox custom-checkbox-box mb-3">
                 <input type="checkbox" class="custom-control-input" id="speak-box-2">
                 <label class="custom-control-label" for="speak-box-2"></label>
               </div>
             </div>
             <div>
-              <div class="custom-control custom-checkbox custom-checkbox-lg mb-3">
+              <div class="custom-control custom-checkbox custom-checkbox-box mb-3">
                 <input type="checkbox" class="custom-control-input" id="speak-box-3">
                 <label class="custom-control-label" for="speak-box-3"></label>
               </div>
@@ -363,18 +335,18 @@
           </div>
           <div>
             <div>READ
-              <div class="custom-control custom-checkbox custom-checkbox-lg mb-3 mt-2">
+              <div class="custom-control custom-checkbox custom-checkbox-box mb-3 mt-2">
                 <input type="checkbox" class="custom-control-input" id="read-box-1">
                 <label class="custom-control-label" for="read-box-1"></label>
               </div>
               <div>
-                <div class="custom-control custom-checkbox custom-checkbox-lg mb-3">
+                <div class="custom-control custom-checkbox custom-checkbox-box mb-3">
                   <input type="checkbox" class="custom-control-input" id="read-box-2">
                   <label class="custom-control-label" for="read-box-2"></label>
                 </div>
               </div>
               <div>
-                <div class="custom-control custom-checkbox custom-checkbox-lg mb-3">
+                <div class="custom-control custom-checkbox custom-checkbox-box mb-3">
                   <input type="checkbox" class="custom-control-input" id="read-box-3">
                   <label class="custom-control-label" for="read-box-3"></label>
                 </div>
@@ -383,18 +355,18 @@
           </div>
           <div>
             <div>WRITE
-              <div class="custom-control custom-checkbox custom-checkbox-lg mb-3 mt-2">
+              <div class="custom-control custom-checkbox custom-checkbox-box mb-3 mt-2">
                 <input type="checkbox" class="custom-control-input" id="write-box-1">
                 <label class="custom-control-label" for="write-box-1"></label>
               </div>
               <div>
-                <div class="custom-control custom-checkbox custom-checkbox-lg mb-3">
+                <div class="custom-control custom-checkbox custom-checkbox-box mb-3">
                   <input type="checkbox" class="custom-control-input" id="write-box-2">
                   <label class="custom-control-label" for="write-box-2"></label>
                 </div>
               </div>
               <div>
-                <div class="custom-control custom-checkbox custom-checkbox-lg mb-3">
+                <div class="custom-control custom-checkbox custom-checkbox-box mb-3">
                   <input type="checkbox" class="custom-control-input" id="write-box-3">
                   <label class="custom-control-label" for="write-box-3"></label>
                 </div>
@@ -405,18 +377,18 @@
         <div class="col-4 row d-flex justify-content-around">
           <div>
             <div>SPEAK
-              <div class="custom-control custom-checkbox custom-checkbox-lg mb-3 mt-2">
+              <div class="custom-control custom-checkbox custom-checkbox-box mb-3 mt-2">
                 <input type="checkbox" class="custom-control-input" id="speak-box-4">
                 <label class="custom-control-label" for="speak-box-4"></label>
               </div>
               <div>
-                <div class="custom-control custom-checkbox custom-checkbox-lg mb-3">
+                <div class="custom-control custom-checkbox custom-checkbox-box mb-3">
                   <input type="checkbox" class="custom-control-input" id="speak-box-5">
                   <label class="custom-control-label" for="speak-box-5"></label>
                 </div>
               </div>
               <div>
-                <div class="custom-control custom-checkbox custom-checkbox-lg mb-3">
+                <div class="custom-control custom-checkbox custom-checkbox-box mb-3">
                   <input type="checkbox" class="custom-control-input" id="speak-box-6">
                   <label class="custom-control-label" for="speak-box-6"></label>
                 </div>
@@ -425,18 +397,18 @@
           </div>
           <div>
             <div>READ
-              <div class="custom-control custom-checkbox custom-checkbox-lg mb-3 mt-2">
+              <div class="custom-control custom-checkbox custom-checkbox-box mb-3 mt-2">
                 <input type="checkbox" class="custom-control-input" id="read-box-4">
                 <label class="custom-control-label" for="read-box-4"></label>
               </div>
               <div>
-                <div class="custom-control custom-checkbox custom-checkbox-lg mb-3">
+                <div class="custom-control custom-checkbox custom-checkbox-box mb-3">
                   <input type="checkbox" class="custom-control-input" id="read-box-5">
                   <label class="custom-control-label" for="read-box-5"></label>
                 </div>
               </div>
               <div>
-                <div class="custom-control custom-checkbox custom-checkbox-lg mb-3">
+                <div class="custom-control custom-checkbox custom-checkbox-box mb-3">
                   <input type="checkbox" class="custom-control-input" id="read-box-6">
                   <label class="custom-control-label" for="read-box-6"></label>
                 </div>
@@ -445,18 +417,18 @@
           </div>
           <div>
             <div>WRITE
-              <div class="custom-control custom-checkbox custom-checkbox-lg mb-3 mt-2">
+              <div class="custom-control custom-checkbox custom-checkbox-box mb-3 mt-2">
                 <input type="checkbox" class="custom-control-input" id="write-box-4">
                 <label class="custom-control-label" for="write-box-4"></label>
               </div>
               <div>
-                <div class="custom-control custom-checkbox custom-checkbox-lg mb-3">
+                <div class="custom-control custom-checkbox custom-checkbox-box mb-3">
                   <input type="checkbox" class="custom-control-input" id="write-box-5">
                   <label class="custom-control-label" for="write-box-5"></label>
                 </div>
               </div>
               <div>
-                <div class="custom-control custom-checkbox custom-checkbox-lg mb-3">
+                <div class="custom-control custom-checkbox custom-checkbox-box mb-3">
                   <input type="checkbox" class="custom-control-input" id="write-box-6">
                   <label class="custom-control-label" for="write-box-6"></label>
                 </div>
@@ -465,30 +437,155 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-12 border border-dark w-100">
-        <label class="font-weight-bold">QUALIFICATION</label> <span>- Start With Highest & Details UPTO S. S.
-          L.</span>
-      </div>
-      <div class="container">
-        <div class="row border border-dark">
-          <div class="col">Exams Passed</div>
-          <div class="col">Class and Percentageof mark scored</div>
-          <div class="col-5">Name of Educational Institute</div>
-          <div class="col">University</div>
-          <div class="col">Month/Year</div>
-          <div class="col">Subject</div>
+      <div class="row">
+        <div class="col-12 border border-dark w-100">
+          <label class="font-weight-bold qualifications">QUALIFICATION</label><span class="qualifications"> - Start With
+            Highest & Details UPTO S. S. L. C</span>
         </div>
       </div>
-      <div class="container">
-        <div class="row border border-dark">
-          <div class="col-8">col-8</div>
-          <div class="col-4">col-4</div>
+      <div class="row">
+        <div class="col-1 text-center border border-dark pt-2">
+          <label>Exams Passed</label>
+        </div>
+        <div class="col-2 text-center border border-dark">
+          <label>Class and Percentage of mark scored</label>
+        </div>
+        <div class="col-3 text-center border border-dark pt-4">
+          <label>Name of Educational Institute</label>
+        </div>
+        <div class="col-2 text-center border border-dark pt-4">
+          <label>University</label>
+        </div>
+        <div class="col-2 text-center border border-dark pt-4">
+          <label>Month / Year </label>
+        </div>
+        <div class="col-2 text-center border border-dark pt-4">
+          <label>Subject</label>
         </div>
       </div>
-      </form>
-    </div>
+      <div class="row">
+        <div class="col-1 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-2 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-3 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-2 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-2 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-2 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-2 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-3 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-2 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-2 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-2 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-2 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-3 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-2 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-2 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-2 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-2 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-3 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-2 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-2 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-2 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-2 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-3 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-2 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-2 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+        <div class="col-2 text-center border border-dark py-2">
+          <label><input type="text" class="form-control"></label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 border border-dark w-100">
+          <p class="apprentice">Apprenticeship & Training (Nature & Duration, Institution)</p>
+          <label><input type="text" size="50">
+        </div>
+      </div>
+      <div class="row border border-dark">
+        <div class="col-4 pt-2 pb-2 form-inline">
+          <p class="p-0">Have you ever been involved in any</p>
+          <p class="p-0">Criminal Case/ Arrested / Remanded</p>
+          <p class="p-0">Convicted? If so give details.</p>
+        </div>
+        <div class="col-8">
+          <textarea class="w-100 h-100"></textarea>
+        </div>
+      </div>
+  </div>
+  </form>
+  </div>
+  <div class="footer">
+    <p class="font-weight-bold ml-5 mb-3 mt-3">WHEREVER REQUIRED, ADDITIONAL SHEET MAY BE ATTACHED</p>
+  </div>
+  </div>
   </div>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
